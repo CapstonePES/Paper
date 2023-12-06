@@ -1,0 +1,156 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\makeatletter
+\newcommand{\linebreakand}{%
+  \end{@IEEEauthorhalign}
+  \hfill\mbox{}\par
+  \mbox{}\hfill\begin{@IEEEauthorhalign}
+}
+\makeatother
+\begin{document}
+
+\title{Monitoring the concentration of air pollutants and its
+health hazards using Machine Learning models}
+
+\author{\IEEEauthorblockN{Aditi Jain}
+\IEEEauthorblockN{\textit{in.aditijain@gmail.com}}
+\IEEEauthorblockA{\textit{PES University} 
+}
+\and
+\IEEEauthorblockN{Aditya Shenoy}
+\IEEEauthorblockN{\textit{adityashenoy47@gmail.com}}
+\IEEEauthorblockA{\textit{PES University} 
+}
+\and
+\IEEEauthorblockN{Ananya Adiga}
+\IEEEauthorblockN{\textit{ananyaadiga1@gmail.com}}
+\IEEEauthorblockA{\textit{PES University} 
+}
+\and
+\IEEEauthorblockN{Anirudha Anekal}
+\IEEEauthorblockA{\textit{anirudhaanekal@gmail.com}}
+\IEEEauthorblockA{\textit{PES University} 
+}
+\linebreakand
+\IEEEauthorblockN{Prof. Saritha}
+\IEEEauthorblockA{\textit{Dept of Computer Science, PES University} 
+}
+}
+\maketitle
+
+\begin{abstract}
+In this paper, we present a research based proposal of a continuous air quality monitoring system that will keep track of the air quality in the user's vicinity to predict the probability and alert them in case of increased likelihood of developing lung cancer. This will be achieved using a hybrid model of Adaptive LSTM and ARIMA ML models. The model will be deployed on a cloud platform.The proposed system is designed to monitor the levels of PM2.5, PM10, NO2, and CO in the air continuously, providing the user with real-time information about the quality of air in their surroundings.The system will then use this data to assess the user's risk of developing lung cancer and alert them accordingly by keeping track of the air quality and providing early warnings using IoT sensors.
+\end{abstract}
+
+\begin{IEEEkeywords}
+lung cancer, IOT, LSTM, ARIMA
+\end{IEEEkeywords}
+
+\section{Introduction}
+The industrialization process has been a significant contributor to the current pollution crisis facing
+the world. However, many people remain unaware of the dangers associated with poor air quality.
+Pollutants such as PM2.5, PM10, NO2, and CO are particularly harmful to human health, with the
+lungs being the first point of contact. Particulate matter of a small diameter enter the lungs easily. As
+such, it is crucial to increase public awareness of these hazards and encourage individuals to take
+protective measures.
+To address this issue, it is necessary to develop and implement air quality monitoring systems. Such
+systems would provide individuals with real-time information on air quality levels in their
+surroundings and alert them to potential health risks. By increasing awareness and providing early
+warnings, we can help individuals take preventative measures and protect their health.
+
+Therefore, we propose a continuous air quality monitoring system that will keep track of the air
+quality in the user's vicinity and alert them to the likelihood of developing lung cancer. Our
+research-based project aims to improve the effectiveness of existing systems to ensure maximum
+efficiency, taking into account the current volume of data.
+The proposed system is designed to monitor the levels of PM2.5, PM10, NO2, and CO in the air
+continuously, providing the user with real-time information about the quality of the air they are breathing. The system will then use this data to assess the user's risk of developing lung cancer and
+alert them accordingly. By keeping track of the air quality and providing early warnings, this system
+can help people take appropriate measures to safeguard their health.
+In conclusion, the proposed air quality monitoring system is an essential tool for ensuring people's
+health and well-being in today's polluted environment. With its ability to continuously monitor the air
+quality and provide real-time alerts, this system will enable people to take preventive measures to
+protect their health from the harmful effects of air pollution.
+
+\section{Methods}
+We are using an ensemble of 2 machine learning models. ARIMA is trained on historical data. LSTM is working with IOT data. The model is deployed on the vcloud. IOT is built using arduino.
+
+\subsection{Abbreviations and Acronyms}\label{AA}
+\begin{itemize}
+    \item ARIMA - AutoRegressive Integrated Moving Average
+    \item LSTM - Long Short-Term Memory
+    \item IoT - Internet of Things
+    \item ML - Machine Learning
+    \item WHO - World Health Organization
+    \item AQI - Air Quality Index
+    \item PM - Particulate Matter
+    \item INAAQS - Indian National Ambient Air Quality Standards
+    \item ANN - Artificial Neural Network
+    \item CNN - Convolutional Neural Network
+    \item LSTM - Long Short-Term Memory
+    \item IAQ - Indoor Air Quality
+    \item SVM - Support Vector Machine
+    \item AWS - Amazon Web Services
+\end{itemize}
+
+\subsection{Keywords}
+\begin{itemize}
+\item Air pollutants
+\item Lung Cancer
+\item Internet Of Things
+\item ARIMA
+\item LSTM
+
+\end{itemize}
+
+\subsection{Equations}
+We can put the ppm equation here.
+ASK MADAM THIS TOO!!!!!!!
+
+\section{Methodology}
+What should we write here madam?
+\subsection{Machine Learning}
+Theoretical explanation of the ensemble model.
+\subsection{IOT}
+Practical explanation of IOT station.
+\section*{Acknowledgment}
+
+We would like to express our gratitude to Prof. Saritha R, Department of Computer Science
+and Engineering, PES University, for her continuous guidance, assistance, and
+encouragement throughout the development of this UE20CS390A - Capstone Project
+Phase – 1.
+We am grateful to the Capstone Project Coordinators, Dr.Sarasvathi V, Professor and Dr.
+Sudeepa Roy Dey, Associate Professor, for organizing, managing, and helping with the
+entire process.
+We take this opportunity to thank Dr. Sandesh B J, Professor \& Chairperson, Department
+of Computer Science and Engineering, PES University, for all the knowledge and
+support We have received from the department. We would like to thank Dr. B.K. Keshavan,
+Dean of Faculty, PES University for his help.
+We am deeply grateful to Dr. M. R. Doreswamy, Chancellor, PES University, Prof.
+Jawahar Doreswamy, Pro Chancellor – PES University, Dr. Suryaprasad J,
+Vice-Chancellor, PES University for providing to me various opportunities and
+enlightenment every step of the way. Finally, this Capstone Project could not have been
+completed without the continual support and encouragement We have received from my
+family and friends
+
+\begin{thebibliography}{00}
+\bibitem{b1} An Application of IoT and Machine Learning to Air Pollution Monitoring in Smart Cities By: Muhammad Taha Jilani, Husna Gul A.Wahab
+\bibitem{b2}  How Is the Lung Cancer Incidence Rate Associated with Environmental Risks? Machine-Learning-Based Modeling and Benchmarking By: Kung-Min Wang, Kun-Huang Chen, Shieh-Hsen Tseng
+\bibitem{b3}Assessment of indoor air quality in academic buildings usng IOT and deep learnings By: Mohammad Marzouk and Mohammad Atef
+\bibitem{b4} Household Ventilation May Reduce Effects of Indoor Air Pollutants for Prevention of Lung Cancer: A Case-Control Study in a Chinese Population. By: Jin Z-Y, Wu M, Han R-Q, Zhang X-F, Wang X-S, et al.
+\bibitem{b5} Determination of Air Quality Life Index (AQLI) in Medinipur City of West Bengal(India) During 2019 To 2020 : A contextual Study By: Samiran Rana.
+\bibitem{b6} Air pollution and skin diseases: Adverse effects of airborne particulate matter on various skin diseases, By: Kim Kyung Eun, Cho Daeho, Park Hyun Jeong
+\bibitem{b7} The spatial association between environmental pollution and long-term cancer mortality in
+Italy. By: Roberto Cazzolla Gatti, Arianna Di Paola, Alfonso Monaco, Alena Velichevskaya, Nicola Amoroso, Roberto
+\bibitem{b8}The nexus between COVID-19 deaths, air pollution and economic growth in New York state: Evidence from Deep Machine Learning By: Cosimo Magazzino , Marco Mele , Samuel Asumadu Sarkodie
+\end{thebibliography}
+\vspace{12pt}
+\end{document}
